@@ -1,6 +1,4 @@
-export default class Golem;
-class Golem {
-    
+export default class Golem{
     constructor(gameWidth, gameHeight) {
         this.width = 50;
         this.height = 50;
@@ -11,4 +9,4 @@ class Golem {
         img.src = "src\assets\golem-pc.png";
         document.body.appendChild(img);
     }
-}
+};
